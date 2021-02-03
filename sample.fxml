@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="442.0" prefWidth="698.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="crtBtn" layoutX="159.0" layoutY="196.0" mnemonicParsing="false" onAction="#handleCrtBtn" prefHeight="52.0" prefWidth="102.0" text="Tạo ghi chú" />
+      <Button fx:id="viewBtn" layoutX="471.0" layoutY="196.0" mnemonicParsing="false" onAction="#handleViewBtn" prefHeight="52.0" prefWidth="102.0" text="Xem ghi chú" />
+   </children>
+</AnchorPane>
